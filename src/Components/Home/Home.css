@@ -1,0 +1,171 @@
+.header {
+    position: absolute;
+    width: 400px;
+    height: 49px;
+    top: 20%;
+    
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 20px;
+    
+    
+    color: rgba(0, 0, 0, 0.87);
+    }
+  .header-category{
+    position: absolute;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 20px;
+  }
+    
+    
+    .container {
+      width: 90%;
+      max-width: 1240px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+      grid-gap: 20px;
+      padding-left: 12%;
+    }
+    .sport-container {
+      padding-top: 12%;
+      width: 90%;
+      max-width: 1240px;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+      grid-gap: 20px;
+      padding-left: 10%;
+    }
+    
+    @media only screen and (min-width: 500px){
+      .container {
+          grid-template-columns: 1fr 1fr;
+      }
+      .item-1 {
+          grid-column: 1 / span 2;
+      }
+    
+    }
+    
+    @media only screen and (min-width: 850px){
+      .container{
+          grid-template-columns: repeat(4,1fr);
+      }
+      .sport-container {
+        grid-template-columns: repeat(3,1fr);
+      }
+    
+    }
+
+
+    .card {
+      min-height: 100%;
+      background: rgba(9, 53, 123, 0.9);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.87);
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+      position: relative;
+      top: 120px;
+      transition: all .1s ease-in;
+    }
+    
+    .card .thumb {
+      width: 100%;
+      background-size: cover;
+      background-position: center center;
+    }
+    
+    .card p {
+      font-family: "Roboto";
+      flex: 1;
+      line-height: 1.4;
+      color: white;
+      font-size: 15px;
+    }
+    .card h1 {
+      font-family: "Georgia";
+      flex: 1;
+      line-height: 1;
+      font-size: 20px;
+      margin: 1em 0 0 0;
+      color:white;
+      letter-spacing: .05em;
+    }
+    
+    .loading-icon {
+      padding-left: 50%;
+      padding-top: 300px;
+    }
+
+.search-box {
+  position: absolute;
+  margin-left: 70%;
+  transform: translate(-50%,-50%);
+  background: rgba(9, 53, 123, 0.9);
+  height: 20px;
+  border-radius: 40px;
+  padding: 7px;
+  margin-top: 8%;
+}
+
+.search-box:hover .search-txt{
+  width: 150px;
+  padding: 0 6px;
+}
+
+
+.search-btn {
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color:white;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 20px;
+  width: 0px;
+}
+.view-bookmark {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 13px;
+  display: flex;
+  letter-spacing: 0.3px;
+  line-height: 22px;
+  background: rgba(9, 53, 123, 0.9);
+  width: 10%;
+  box-shadow: 0px 2px 6px;
+  cursor: pointer;
+  color: white;
+  padding: 5px;
+  border-radius: 4px;
+  text-decoration: none;
+  justify-content: center;
+  margin-left: 30%;
+  position: absolute;
+  margin-top: 10px;
+}
+.view-bookmark:hover {
+  color: black
+}
+
+.dropdown {
+  margin-left: 210%;
+  margin-top: 10px;
+}

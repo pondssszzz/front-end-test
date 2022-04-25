@@ -1,0 +1,24 @@
+.header {
+    position: absolute;
+    width: 400px;
+    height: 49px;
+    left: 165px;
+    top: 70px;
+    
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 49px;
+    
+    
+    color: rgba(0, 0, 0, 0.87);
+    }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem,20rem));
+    justify-content: center;
+    gap: 1.5rem;
+    padding-left: 5%;
+}

@@ -1,0 +1,21 @@
+.Navbar {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #09357B;
+    width: 100%;
+}
+
+.nav-logo {
+    font-weight: 900;
+    font-size: 21px;
+    margin: 110px;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-search {
+    color: white;
+    margin: 100px;
+}

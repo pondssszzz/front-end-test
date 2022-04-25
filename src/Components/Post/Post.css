@@ -1,0 +1,69 @@
+.loading-icon {
+    padding-left: 50%;
+    padding-top: 300px;
+  }
+
+.Container {
+    width: 50%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8%;
+    padding-right: 20%;
+    padding-left: 5%;
+
+  }
+
+  .title {
+      font-size: 32px;
+      font-family: "Georgia";
+      font-style: normal;
+      letter-spacing: 0.07px;
+      line-height: 39px;
+  }
+
+  .headline {
+      font-family: "Georgia";
+      font-style: normal;
+      letter-spacing: 0.07px;
+      line-height: 20px;
+  }
+
+  .line {
+      display: grid;
+      background-color: black;
+      width: 100%;
+      height: 2%;
+  }
+
+  .content {
+      font-family: "Roboto";
+      font-style: normal;
+      line-height: 20px;
+      font-size: 14px;
+      letter-spacing: 0.3px;
+      word-spacing: 3px;
+  }
+
+  .bookmark {
+      font-family: "Roboto";
+      font-style: normal;
+      font-size: 13px;
+      display: flex;
+      letter-spacing: 0.3px;
+      line-height: 22px;
+      background: rgba(9, 53, 123, 0.9);
+      width: 20%;
+      box-shadow: 0px 2px 6px;
+      cursor: pointer;
+      color: white;
+      padding: 5px;
+      border-radius: 4px;
+      justify-content: center;
+    
+  }
+  .bookmark:hover {
+      color:black
+  }
